@@ -9,6 +9,7 @@
       def artist_name
         self.artist.name
       end
+<<<<<<< HEAD
       
       def self.new_by_filename(filename)
         artist, song = filename.split(" - ")
@@ -22,4 +23,6 @@
         artist.add_song(self)
       end
     
+=======
+>>>>>>> 1d9033cdcef9e0256396c9bbdb504432fe346fd4
     end
